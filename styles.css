@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+body {
+  background-color: #93cedb;
+}
+
+.wrapper {
+  width: 80vmin;
+  padding: 50px 40px 30px;
+  background-color: #15161a;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 5px;
+  box-shadow: 20px 20px 40px rgba(97, 63, 0, 0.4);
+}
+
+span {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 100px;
+}
+
+p {
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 400;
+  text-align: center;
+  word-wrap: break-word;
+  line-height: 25px;
+  margin: 30px 0 10px;
+  opacity: 0;
+}
+
+.single {
+  margin: 30px 0;
+}
+
+.fade {
+  opacity: 1;
+  transition: opacity 1.5s;
+}
+
+p:nth-of-type(2) {
+  margin: 20px auto;
+}
+
+button {
+  display: block;
+  background-color: #0099bc;
+  border: none;
+  padding: 5px;
+  font-size: 18px;
+  color: #171721;
+  font-weight: 600;
+  padding: 12px 25px;
+  margin: 0 auto;
+  border-radius: 5pc;
+  cursor: pointer;
+}
+
+#nsfw {
+  display: block;
+  background-color: rgb(63, 196, 63);
+  border: none;
+  padding: 4px;
+  font-size: 14px;
+  color: #171721;
+  font-weight: 600;
+  padding: 10px 20px;
+  margin: 15px auto;
+  border-radius: 5pc;
+  cursor: pointer;
+}
+
+#nsfw.off {
+  background-color: #e81224;
+}
